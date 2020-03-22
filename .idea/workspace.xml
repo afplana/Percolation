@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Percolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Percolation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PercolationStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/PercolationStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/PercolationStats.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +37,9 @@
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZQx079eMsfJTBy9bt3XRK0qwP9" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -38,12 +48,20 @@
   <component name="PropertiesComponent">
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.InteractivePercolationVisualizer">
+  <component name="RunManager" selected="Application.PercolationStats">
     <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InteractivePercolationVisualizer" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
       <module name="Algorithms, Part I" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PercolationStats" />
         <item itemvalue="Application.InteractivePercolationVisualizer" />
         <item itemvalue="Application.PercolationVisualizer" />
       </list>
@@ -89,22 +108,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="524" y="276" width="308" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1584785211228" />
-    <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1584902691764">
+    <state x="314" y="0" width="727" height="766" key="CommitChangelistDialog2" timestamp="1584907787149">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584902691764" />
-    <state width="1320" height="184" key="GridCell.Tab.0.center" timestamp="1584902691764">
+    <state x="314" y="0" width="727" height="766" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584907787149" />
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1584907225928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584902691764" />
-    <state width="1320" height="184" key="GridCell.Tab.0.left" timestamp="1584902691763">
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584907225928" />
+    <state width="1320" height="184" key="GridCell.Tab.0.center" timestamp="1584907225928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584902691763" />
-    <state width="1320" height="184" key="GridCell.Tab.0.right" timestamp="1584902691764">
+    <state width="1320" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584907225928" />
+    <state width="1320" height="184" key="GridCell.Tab.0.left" timestamp="1584907225927">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584902691764" />
+    <state width="1320" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584907225927" />
+    <state width="1320" height="184" key="GridCell.Tab.0.right" timestamp="1584907225928">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584907225928" />
     <state width="1320" height="230" key="GridCell.Tab.1.bottom" timestamp="1584900785354">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -129,21 +152,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584785932199" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Percolation.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Percolation.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="416" y="143" width="524" height="479" key="extract.method.dialog" timestamp="1584904404044">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="416" y="143" width="524" height="479" key="extract.method.dialog/0.0.1366.768@0.0.1366.768" timestamp="1584904404044" />
   </component>
 </project>
