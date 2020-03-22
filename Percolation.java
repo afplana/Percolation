@@ -13,11 +13,12 @@ public class Percolation {
 
     private int len; // length of rows and columns
     private int count; // Count of open sites
+
     private WeightedQuickUnionUF quickUnionUF; // Establish relation between sites
 
     // creates n-by-n grid, with all sites initially blocked
     public Percolation(int n) {
-        if (n <= 0) throw new IllegalArgumentException("IllegalArgument");
+        if (n <= 0) throw new IllegalArgumentException("Index must be higher than 0");
         count = 0;
         len = n;
         grid = new byte[n + 1][n + 1];
@@ -65,6 +66,7 @@ public class Percolation {
         return quickUnionUF.connected(len * len - 2, len * len - 1);
     }
 
+    // Test sites around grid[row][col] to apply union if are open
     private void fill(int row, int col) {
         int site = id[row][col];
 
@@ -82,9 +84,11 @@ public class Percolation {
     }
 
     // validate that p is a valid index
-    private void validate(int p, int q) {
-        if (p <= 0 || p > len || q <= 0 || q > len)
-            throw new IllegalArgumentException("index " + p + " is not between 1 and " + len);
+    private void validate(int row, int col) {
+        if (row <= 0 || row > len)
+            throw new IllegalArgumentException("Index " + row + " is not between 1 and " + len);
+        if (col <= 0 || col > len)
+            throw new IllegalArgumentException("indexes " + col + " is not between 1 and " + len);
     }
 
     // test client (optional)
